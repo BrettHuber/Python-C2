@@ -22,4 +22,6 @@ try:
 except Exception as error:
     print(f"Error Message: {error}") # Prints error message
 finally:
-    x = ""
+    print("Connection being terminated . . .") # Prints that the connection is being terminated
+    clientConnection.close() # Closes the connection to the client
+    sock.close() # Closes the server socket
