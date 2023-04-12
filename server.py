@@ -13,7 +13,7 @@ print(f"Connected to by {address}") # Prints out the client address
 
 try:
     x = ""
-except:
-    x = ""
+except Exception as error:
+    print(f"Error Message: {error}")
 finally:
     x = ""
