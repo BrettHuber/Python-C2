@@ -1,2 +1,5 @@
 import socket
-import os
+
+hostAddress = "localhost" # IP Address of machine that runs server
+portNumber = 6969
+
